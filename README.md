@@ -10,7 +10,7 @@
 
 Facade (VEExport entity) consists of several methods and constructor.
 
-VEPlayback initialization requires instance of VideoEditorService.
+VEExport initialization requires instance of VideoEditorService.
 
 ``` swift
   /// VEExport constructor.
