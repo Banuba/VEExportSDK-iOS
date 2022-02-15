@@ -8,9 +8,9 @@
 
 ## Facade
 
-Facade (VEExport entity) consists of several methods and constructor.
+Facade (`VEExport` entity) consists of several methods and constructor.
 
-VEExport initialization requires instance of VideoEditorService.
+`VEExport` initialization requires instance of `VideoEditorService`.
 
 ``` swift
   /// VEExport constructor.
@@ -19,7 +19,7 @@ VEExport initialization requires instance of VideoEditorService.
   )
 ```
 
-Public methods allows you to export existing video editor composition or audio from VideoEditorService core module.
+Public methods allows you to export existing video editor composition or audio from `VideoEditorService` core module.
 
 ``` swift
   /// Export video with input info and watermark model
@@ -45,7 +45,7 @@ Public methods allows you to export existing video editor composition or audio f
   )
 ```
 
-Also VEExport API allows you to create slideshow from entire images.
+Also `VEExport` API allows you to create slideshow from entire images.
 ``` swift
   /// Exports slideshow images to fileUrl if provided. Otherwise, will be exported to tmp folder.
   /// - Parameters:
@@ -113,7 +113,7 @@ Resolution options.
 ## Slideshow
 
 As mentioned above API has functionality to create slideshow video from images.
-Entire Images should be inherit from VideoEditorImageAssetProtocol.
+Entire Images should be inherit from `VideoEditorImageAssetProtocol.
 
 ``` swift
 public protocol VideoEditorImageAssetProtocol: AnyObject {
