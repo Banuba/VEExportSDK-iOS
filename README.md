@@ -2,6 +2,8 @@
 
 # Banuba VEExportSDK. API Reference.
 
+VEExportSDK allows you to export video composition which already setuped in [Core API](https://github.com/Banuba/VideoEditor-iOS) and optionally edited with [Effects API](https://github.com/Banuba/BanubaVideoEditorEffectsSDK-iOS). So [Core API](https://github.com/Banuba/VideoEditor-iOS) is required usage for VEExportSDK.
+
 - [Facade](#Facade)
 - [ExportVideoInfo](#ExportVideoInfo)
 - [Slideshow](#Slideshow)
