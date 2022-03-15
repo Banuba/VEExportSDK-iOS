@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QC0Qlszdy/A+DcY8qJG6aAcRfB0=
+		ui/w+ZklcH6C9scNXb3rG8+C6yo=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1VplvSTjyJb9WNqUXgOl6iMXDqs=
+		VWtYRuJr8nuiTJSQbBv1LpzbiNc=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		1VplvSTjyJb9WNqUXgOl6iMXDqs=
+		VWtYRuJr8nuiTJSQbBv1LpzbiNc=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VDzcOt8dMW0neN1auCkaVkSdXEU=
+		EgNHKIK08JhipGphd/HxKjO+7N0=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		VDzcOt8dMW0neN1auCkaVkSdXEU=
+		EgNHKIK08JhipGphd/HxKjO+7N0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -147,7 +147,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sYD+t53UJkwtZZUXGf/1crUxdSzcO63aIGTub8KvqfI=
+			rvtiUOXqGOmnw+JmbP/TRd6TgfkVKW05HyUjcsXBo5k=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/arm64.swiftdoc</key>
@@ -168,7 +168,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sYD+t53UJkwtZZUXGf/1crUxdSzcO63aIGTub8KvqfI=
+			rvtiUOXqGOmnw+JmbP/TRd6TgfkVKW05HyUjcsXBo5k=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -189,7 +189,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zlNkOe1LHCUPCAePg5HQgYw8mbbcJtwC3pvzM5XEPdM=
+			5kvHmCdgNvvStGEAxKKCBn1RocZc+6VqMb3EhMMtMCk=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -210,7 +210,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zlNkOe1LHCUPCAePg5HQgYw8mbbcJtwC3pvzM5XEPdM=
+			5kvHmCdgNvvStGEAxKKCBn1RocZc+6VqMb3EhMMtMCk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
