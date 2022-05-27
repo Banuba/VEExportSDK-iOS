@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/VEExportSDK-Swift.h</key>
 		<data>
-		tlTwqDkVA+Cr2E2Rhi7FVUvuphQ=
+		OuKQPXnwN9GczxfrpZ7eHybZaiM=
 		</data>
 		<key>Headers/VEExportSDK.h</key>
 		<data>
@@ -14,23 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Co7GMGTDQ5c3+ZJfTNt14YuDQ8g=
+		urfmSrEjB1CYyYIjGFm3G8OnhJc=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		fPepD6FDdTINOLHGJj9HKPY8DTg=
+		nKGFtUf9mvXJ9NDHEIJ99rteBts=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		91nKMBX4nIgdwHdBmI4CQWlrSzA=
+		jXNTDvyEFtGTQDGSYyYQmiHNDao=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		dioRyBvndeYYCnEWPsAbc+0GOmk=
+		lnHFbh2eHgU9nFP2YKYxXCp5zoI=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		JikQ+PzdyrKjlfS2KhSeHH8GgHA=
+		Mg7HvjbERUNLGNMjs6tzmRHuQtM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pE3Dm/JOomJOu7/a0FGOyJCvtDFk2MrCL7ONb1l8gOk=
+			H6ec4FSXnPqgWFw1a9lmG3sApZIr2ZjXmyZLQTWA6co=
 			</data>
 		</dict>
 		<key>Headers/VEExportSDK.h</key>
@@ -57,28 +57,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OrQYb0V/2c6I0ccdB3R/qMTrgXWGY53nhfVAvTpgjyU=
+			UMqWZYyMggS34bZzg8wsh9LnYanLMSuB+f7dbV6HcoQ=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S8E/ngqSN5O0eLeNayA5MLYrbtp8SRyzh8PSxKW4Iyo=
+			S0WEtngsGEDwF1ro6ZNq+PDy4rqpgMi7o34zqs1skj8=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pvl7ObwW3k/1I2cYn1XGxIEfJqqQgwOtvC1eDWS7ezU=
+			gQOhDuELj1vozvfzDxL5FTtH84GoesiaLmn+jPL3MVc=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yjClOn2aPKOCKpLj5YDN4+4De6W5TTupLdWTHX/hTME=
+			rAofxB2OAUd+UiL8wO4ttlsoBjeNsUEjkSNsMRYRYZo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

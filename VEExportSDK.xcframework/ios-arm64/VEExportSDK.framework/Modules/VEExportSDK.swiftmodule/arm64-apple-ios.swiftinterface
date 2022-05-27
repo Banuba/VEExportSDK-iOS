@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name VEExportSDK
 import AVFoundation
 import BanubaUtilities
@@ -60,17 +60,19 @@ public class ExportVideoInfo {
     }
   }
   final public let resolution: VEExportSDK.ExportVideoInfo.Resolution
+  final public let aspect: BanubaUtilities.AspectRatio?
   final public let exportSettings: VEExportSDK.ExportVideoSettings
-  public init(resolution: VEExportSDK.ExportVideoInfo.Resolution, useHEVCCodecIfPossible: Swift.Bool, frameRate: Swift.Int = 30, scalingMode: Swift.String = AVVideoScalingModeResize)
+  public init(resolution: VEExportSDK.ExportVideoInfo.Resolution, aspect: BanubaUtilities.AspectRatio? = nil, useHEVCCodecIfPossible: Swift.Bool, frameRate: Swift.Int = 30, scalingMode: Swift.String = AVVideoScalingModeResize)
   public static func setupOriginalSize(size: CoreGraphics.CGSize)
   @objc deinit
 }
 public struct ExportVideoInfoFactory {
-  public static func assetExportSettings(resolution: BanubaUtilities.VideoResolution, useHEVCCodecIfPossible: Swift.Bool, frameRate: Swift.Int = 30, scalingMode: Swift.String = AVVideoScalingModeResize) -> VEExportSDK.ExportVideoInfo
+  public static func assetExportSettings(resolution: BanubaUtilities.VideoResolution, aspect: BanubaUtilities.AspectRatio? = nil, useHEVCCodecIfPossible: Swift.Bool, frameRate: Swift.Int = 30, scalingMode: Swift.String = AVVideoScalingModeResize) -> VEExportSDK.ExportVideoInfo
 }
 @_hasMissingDesignatedInitializers public class ExportVideoSettings {
   final public let width: Swift.Int
   final public let height: Swift.Int
+  final public let aspect: BanubaUtilities.AspectRatio?
   final public let bitrate: VEExportSDK.Bitrate
   final public let frameRate: Swift.Int
   final public let codecType: AVFoundation.AVVideoCodecType
