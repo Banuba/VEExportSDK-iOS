@@ -73,17 +73,22 @@ public class ExportVideoInfo {
   /// Specified video quality.
   public let resolution: Resolution
   
+  /// Specified video aspect.
+  public let aspect: AspectRatio?
+  
   /// Export video settings
   public let exportSettings: ExportVideoSettings
   
   /// ExportVideoInfo constructor.
   /// - Parameters:
   ///   - resolution: Specify quality for exporting video.
+  ///   - aspect: Specify video aspect.
   ///   - useHEVCCodecIfPossible: Use HEVC (H.265) encoder if it is available on the current device
   ///   - frameRate: Specify video frame rate. Default is 30.
   ///   - scalingMode: Specify video scaling mode with required mode like ‘AVVideoScalingModeResizeAspect’. Default is 'AVVideoScalingModeResize'.
   public init(
     resolution: Resolution,
+    aspect: AspectRatio? = nil,
     useHEVCCodecIfPossible: Bool,
     frameRate: Int = 30,
     scalingMode: String = AVVideoScalingModeResize
