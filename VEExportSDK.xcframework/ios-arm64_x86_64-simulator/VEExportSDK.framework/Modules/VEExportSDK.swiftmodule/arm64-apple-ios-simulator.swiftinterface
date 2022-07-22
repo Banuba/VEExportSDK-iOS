@@ -83,7 +83,7 @@ public struct ExportVideoInfoFactory {
   @objc deinit
 }
 public class VEExport {
-  public init(videoEditorService: VideoEditor.VideoEditorService)
+  public init?(videoEditorService: VideoEditor.VideoEditorService)
   public func exportVideo(to fileURL: Foundation.URL, using exportVideoInfo: VEExportSDK.ExportVideoInfo, watermarkFilterModel: VideoEditor.VideoEditorFilterModel?, completion: ((_ isSuccess: Swift.Bool, _ error: Swift.Error?) -> Swift.Void)?)
   public func exportAudio(to fileURL: Foundation.URL, completion: ((_ isSuccess: Swift.Bool, _ error: Swift.Error?) -> Swift.Void)?)
   public func exportSlideshowImages(_ images: [VideoEditor.VideoEditorImageAssetProtocol], to fileUrl: Foundation.URL? = nil, videoResolution: BanubaUtilities.VideoResolution, completion: ((Swift.Bool, Foundation.URL, Swift.Error?) -> Swift.Void)?)
