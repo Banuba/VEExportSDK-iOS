@@ -93,6 +93,11 @@ public class ExportVideoInfo {
     frameRate: Int = 30,
     scalingMode: String = AVVideoScalingModeResize
   )
+  
+  /// Save original video quality.
+  /// - Parameters:
+  ///   - size: needs size.
+  public static func setupOriginalSize(size: CGSize)
 }
 ```
 
