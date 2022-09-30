@@ -6,6 +6,6 @@ framework module VEExportSDK {
 }
 
 module VEExportSDK.Swift {
-    header "VEExportSDK-Swift.h"
-    requires objc
+  header "VEExportSDK-Swift.h"
+  requires objc
 }
