@@ -14,55 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+FMqjRkFnuxCbsOpGWxT7agbRxI=
-		</data>
-		<key>Modules/VEExportSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		0EbyerI2KGLh1VW5PPPkTPhq03w=
-		</data>
-		<key>Modules/VEExportSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		+Cz3WbZefUZwOm5PoYE+nvlNG24=
+		IzjSvPKQpAZ996m799dRdItHDVg=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		baSg7XSO2QRkVe1UF7x4kBkxJOU=
+		PQDOLY3WLpwxfyRa+iM7wsMCp1o=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		rp183+BEEaVzFPy3RYZ2RUDLwb4=
+		nDwaEam0gPer7jhwBNHtZgPf/w4=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		aXaSK7XMP6R1RCtd95+5vDM1K0c=
+		zitdfKD+Ou+A7rog6eqyRePneu8=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		rp183+BEEaVzFPy3RYZ2RUDLwb4=
+		nDwaEam0gPer7jhwBNHtZgPf/w4=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yzyMVfWKK09SyHxPfUid9hptvJY=
+		QwmkgWyIJ9ivSWs1Cly0sZ8/V/Q=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		baSg7XSO2QRkVe1UF7x4kBkxJOU=
+		PQDOLY3WLpwxfyRa+iM7wsMCp1o=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		MjukO0coijdRsvBsH2yRS715ytE=
+		O/kfwQslRE9XT8IxtT5HwUwgbDM=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		1mIMZM7js4xXfmqQBhZVOUzK2uQ=
+		FxfbrDYU9ARN5XTqFmZiEeAhBqc=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MjukO0coijdRsvBsH2yRS715ytE=
+		O/kfwQslRE9XT8IxtT5HwUwgbDM=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HULk9VlO2XKSjniwrWOc9ltTe7A=
+		6xm6UJKEVJYtbwK/bmrzWN4LvYU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,88 +77,74 @@
 			Q1WDwJBOHHZe4Dc19gC9tk4VfksF4gycpn/YraCdqaE=
 			</data>
 		</dict>
-		<key>Modules/VEExportSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			IRCr/BSoCY4T7DRWVhVVl1nJ3OEjVp/0uHvQ0QCsz/o=
-			</data>
-		</dict>
-		<key>Modules/VEExportSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RbCyzRPesPEJuToE2nhlTTS15HYB9SOShj9vqywhoJk=
-			</data>
-		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fUykEILKAtmF1yIFjb9kTrKkkUs3ii0BG0haa8a81po=
+			smKI8FoUdqGzh6rXSaq2N8tb3ChX60J1QKF4aI2bNn0=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V5K/F7g2WQF5as24YrjKBKUcr5O7V53TVhtqrdF8Jt8=
+			boyQKrQcxrRDwpZCF/tRbYfHSRfufjwENewTAP3wXa8=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8oJl4wYnrGm0T4+spq0ysIHB4zH70VgZFAYxAaiyJRA=
+			4QC50HBzA0SRvWhH1rbBUg2Y6mpSx8m2Xirkjd053hA=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V5K/F7g2WQF5as24YrjKBKUcr5O7V53TVhtqrdF8Jt8=
+			boyQKrQcxrRDwpZCF/tRbYfHSRfufjwENewTAP3wXa8=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D6fj1Ki+ImrsxJKjxu3tf00+MP75YKxoD/j2Mkz5bLk=
+			/6E1ncSI9DeTSntg9FEyoIIq/Ss2Q8B7bRktZ+TTPuQ=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fUykEILKAtmF1yIFjb9kTrKkkUs3ii0BG0haa8a81po=
+			smKI8FoUdqGzh6rXSaq2N8tb3ChX60J1QKF4aI2bNn0=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LKirO6E3sFdLcuK/Qn82qd4/63LRve4RKModtSZ87eQ=
+			GM0AHad128A4Qv1GwLYBCO2Ew7VsENy+YeJhbCYmNjs=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qoki1VWLZBq+pg6TYCesATW00kQCacLaVFTMGZPBIe8=
+			bcauetF+dYmpr/M84xCExj90g+Wc2hcRALGWJ4uz6ew=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LKirO6E3sFdLcuK/Qn82qd4/63LRve4RKModtSZ87eQ=
+			GM0AHad128A4Qv1GwLYBCO2Ew7VsENy+YeJhbCYmNjs=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3/wFqc+LkWBSwIuonQTdb4oETaBYCkBMQ+jjv1nrAxM=
+			FX+u3PwWt8XmuiVG+d2i6eLFbkmbHY+Zj/BVuu+hIPw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

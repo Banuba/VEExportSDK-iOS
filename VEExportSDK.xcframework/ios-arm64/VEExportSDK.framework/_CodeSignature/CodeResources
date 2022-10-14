@@ -14,31 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ClledQyTgvfUMSg9/bMm7Ogiu5c=
-		</data>
-		<key>Modules/VEExportSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<data>
-		l96LXhE76OhpEVvUgDZ3Ikj3PfY=
+		GRcAzy1tvOBsn62sLqKjt56R81A=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		baSg7XSO2QRkVe1UF7x4kBkxJOU=
+		PQDOLY3WLpwxfyRa+iM7wsMCp1o=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		JDP2o1VoOxX5qfofx7BuEc6nCwI=
+		1SyAnyTSV9VNdwSnmkYQjRSI7hU=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		HTzZSLYQqR/B2J+xt7FU0LbvG6U=
+		E3T+cOmu1acgMniYMzSpimbR6iE=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		JDP2o1VoOxX5qfofx7BuEc6nCwI=
+		1SyAnyTSV9VNdwSnmkYQjRSI7hU=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		d5SvgFaYv5vDDRJS4AktyvA3N1I=
+		sI/QdVgqdoYnEMaajqVuWJC6bAE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,46 +57,39 @@
 			Q1WDwJBOHHZe4Dc19gC9tk4VfksF4gycpn/YraCdqaE=
 			</data>
 		</dict>
-		<key>Modules/VEExportSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7cm456U0uMmSXUYU2iO8mg8yGulO0dePRXwiIZ6s+qU=
-			</data>
-		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fUykEILKAtmF1yIFjb9kTrKkkUs3ii0BG0haa8a81po=
+			smKI8FoUdqGzh6rXSaq2N8tb3ChX60J1QKF4aI2bNn0=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4BABSSLYUHNbcaXz1UZbONz/a3CFU+k8KUsLemuVKM0=
+			0oSi6TjVJ4Yr2/suXmSdY0Njx64l0n9i6+cF+LB8Ty8=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xgiLyU3Qr0/6vnxO3TM5W1smKONWQsexXKHdY8d9yIU=
+			IN+O8ASBMuu9OENqBMUizGaGnONeyy1AuBKd3bHs29I=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4BABSSLYUHNbcaXz1UZbONz/a3CFU+k8KUsLemuVKM0=
+			0oSi6TjVJ4Yr2/suXmSdY0Njx64l0n9i6+cF+LB8Ty8=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ztnHSXW/DPaLweL5cSGFO2GUbtKtBjothe2a2HyfaD8=
+			S2hQgJpFRX91aw7AIarkUcGDy9vMrgzgOlyf+ZvKo8g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
