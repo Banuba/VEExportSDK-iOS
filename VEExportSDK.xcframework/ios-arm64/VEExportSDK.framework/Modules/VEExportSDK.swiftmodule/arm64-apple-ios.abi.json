@@ -3366,217 +3366,168 @@
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4639,
+      "offset": 5501,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 6833,
+      "offset": 7695,
       "length": 4,
       "value": "2160"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 6847,
+      "offset": 7709,
       "length": 4,
       "value": "3840"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 6909,
+      "offset": 7771,
       "length": 4,
       "value": "1440"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 6923,
+      "offset": 7785,
       "length": 4,
       "value": "2560"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 6988,
+      "offset": 7850,
       "length": 4,
       "value": "1080"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7002,
+      "offset": 7864,
       "length": 4,
       "value": "1920"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7062,
+      "offset": 7924,
       "length": 3,
       "value": "720"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7075,
+      "offset": 7937,
       "length": 4,
       "value": "1280"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7135,
+      "offset": 7997,
       "length": 3,
       "value": "480"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7148,
+      "offset": 8010,
       "length": 3,
       "value": "854"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7207,
+      "offset": 8069,
       "length": 3,
       "value": "540"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7220,
+      "offset": 8082,
       "length": 3,
       "value": "960"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7279,
+      "offset": 8141,
       "length": 3,
       "value": "360"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7292,
+      "offset": 8154,
       "length": 3,
       "value": "640"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7354,
+      "offset": 8216,
       "length": 3,
       "value": "360"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7367,
+      "offset": 8229,
       "length": 3,
       "value": "640"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 9990,
+      "offset": 9179,
       "length": 10,
       "value": "36000000"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 10044,
+      "offset": 9229,
       "length": 10,
       "value": "16000000"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 10101,
+      "offset": 9282,
       "length": 9,
       "value": "8000000"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 10152,
+      "offset": 9329,
       "length": 9,
       "value": "5000000"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 10203,
+      "offset": 9376,
       "length": 9,
       "value": "3000000"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 10254,
+      "offset": 9423,
       "length": 9,
       "value": "2500000"
     },
     {
       "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 10305,
-      "length": 9,
-      "value": "1000000"
-    },
-    {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10443,
-      "length": 10,
-      "value": "36000000"
-    },
-    {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10497,
-      "length": 10,
-      "value": "16000000"
-    },
-    {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10554,
-      "length": 9,
-      "value": "8000000"
-    },
-    {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10605,
-      "length": 9,
-      "value": "5000000"
-    },
-    {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10656,
-      "length": 9,
-      "value": "3000000"
-    },
-    {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10707,
-      "length": 9,
-      "value": "2500000"
-    },
-    {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10758,
+      "offset": 9470,
       "length": 9,
       "value": "1000000"
     }
