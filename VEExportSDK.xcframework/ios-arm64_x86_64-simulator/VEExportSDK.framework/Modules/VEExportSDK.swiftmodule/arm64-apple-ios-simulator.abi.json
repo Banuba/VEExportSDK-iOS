@@ -300,6 +300,90 @@
         "moduleName": "VEExportSDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "VESettings",
+        "printedName": "VESettings",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "audio",
+            "printedName": "audio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11VEExportSDK10VESettingsV5audioSDySSypGvpZ",
+            "mangledName": "$s11VEExportSDK10VESettingsV5audioSDySSypGvpZ",
+            "moduleName": "VEExportSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11VEExportSDK10VESettingsV5audioSDySSypGvgZ",
+                "mangledName": "$s11VEExportSDK10VESettingsV5audioSDySSypGvgZ",
+                "moduleName": "VEExportSDK",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11VEExportSDK10VESettingsV",
+        "mangledName": "$s11VEExportSDK10VESettingsV",
+        "moduleName": "VEExportSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -844,7 +928,8 @@
         "mangledName": "$s11VEExportSDK19ExportConfigurationV",
         "moduleName": "VEExportSDK",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ]
       },
       {
@@ -944,6 +1029,122 @@
           },
           {
             "kind": "Var",
+            "name": "useHEVCCodecIfPossible",
+            "printedName": "useHEVCCodecIfPossible",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11VEExportSDK24ExportVideoConfigurationV22useHEVCCodecIfPossibleSbvp",
+            "mangledName": "$s11VEExportSDK24ExportVideoConfigurationV22useHEVCCodecIfPossibleSbvp",
+            "moduleName": "VEExportSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11VEExportSDK24ExportVideoConfigurationV22useHEVCCodecIfPossibleSbvg",
+                "mangledName": "$s11VEExportSDK24ExportVideoConfigurationV22useHEVCCodecIfPossibleSbvg",
+                "moduleName": "VEExportSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "audioSettings",
+            "printedName": "audioSettings",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11VEExportSDK24ExportVideoConfigurationV13audioSettingsSDySSypGvp",
+            "mangledName": "$s11VEExportSDK24ExportVideoConfigurationV13audioSettingsSDySSypGvp",
+            "moduleName": "VEExportSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11VEExportSDK24ExportVideoConfigurationV13audioSettingsSDySSypGvg",
+                "mangledName": "$s11VEExportSDK24ExportVideoConfigurationV13audioSettingsSDySSypGvg",
+                "moduleName": "VEExportSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "watermarkConfiguration",
             "printedName": "watermarkConfiguration",
             "children": [
@@ -1004,54 +1205,9 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "useHEVCCodecIfPossible",
-            "printedName": "useHEVCCodecIfPossible",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11VEExportSDK24ExportVideoConfigurationV22useHEVCCodecIfPossibleSbvp",
-            "mangledName": "$s11VEExportSDK24ExportVideoConfigurationV22useHEVCCodecIfPossibleSbvp",
-            "moduleName": "VEExportSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11VEExportSDK24ExportVideoConfigurationV22useHEVCCodecIfPossibleSbvg",
-                "mangledName": "$s11VEExportSDK24ExportVideoConfigurationV22useHEVCCodecIfPossibleSbvg",
-                "moduleName": "VEExportSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(fileURL:quality:useHEVCCodecIfPossible:watermarkConfiguration:)",
+            "printedName": "init(fileURL:quality:useHEVCCodecIfPossible:audioSettings:watermarkConfiguration:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1079,6 +1235,26 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "VideoEditor.WatermarkConfiguration?",
                 "children": [
@@ -1093,8 +1269,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11VEExportSDK24ExportVideoConfigurationV7fileURL7quality22useHEVCCodecIfPossible09watermarkE0AC10Foundation0G0V_AA0C7QualityOSb0D6Editor09WatermarkE0VSgtcfc",
-            "mangledName": "$s11VEExportSDK24ExportVideoConfigurationV7fileURL7quality22useHEVCCodecIfPossible09watermarkE0AC10Foundation0G0V_AA0C7QualityOSb0D6Editor09WatermarkE0VSgtcfc",
+            "usr": "s:11VEExportSDK24ExportVideoConfigurationV7fileURL7quality22useHEVCCodecIfPossible13audioSettings09watermarkE0AC10Foundation0G0V_AA0C7QualityOSbSDySSypG0D6Editor09WatermarkE0VSgtcfc",
+            "mangledName": "$s11VEExportSDK24ExportVideoConfigurationV7fileURL7quality22useHEVCCodecIfPossible13audioSettings09watermarkE0AC10Foundation0G0V_AA0C7QualityOSbSDySSypG0D6Editor09WatermarkE0VSgtcfc",
             "moduleName": "VEExportSDK",
             "declAttributes": [
               "AccessControl",
@@ -1276,7 +1452,7 @@
           {
             "kind": "Function",
             "name": "exportAudio",
-            "printedName": "exportAudio(to:completion:)",
+            "printedName": "exportAudio(to:audioSettings:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1288,6 +1464,25 @@
                 "name": "URL",
                 "printedName": "Foundation.URL",
                 "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
               },
               {
                 "kind": "TypeNominal",
@@ -1338,8 +1533,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11VEExportSDK0A9ServicingP11exportAudio2to10completiony10Foundation3URLV_ySb_s5Error_pSgtcSgtF",
-            "mangledName": "$s11VEExportSDK0A9ServicingP11exportAudio2to10completiony10Foundation3URLV_ySb_s5Error_pSgtcSgtF",
+            "usr": "s:11VEExportSDK0A9ServicingP11exportAudio2to13audioSettings10completiony10Foundation3URLV_SDySSypGySb_s5Error_pSgtcSgtF",
+            "mangledName": "$s11VEExportSDK0A9ServicingP11exportAudio2to13audioSettings10completiony10Foundation3URLV_SDySSypGySb_s5Error_pSgtcSgtF",
             "moduleName": "VEExportSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : VEExportSDK.VEExportServicing>",
             "sugared_genericSig": "<Self where Self : VEExportSDK.VEExportServicing>",
@@ -2165,9 +2360,84 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "audioSettings",
+            "printedName": "audioSettings",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11VEExportSDK15ExportVideoInfoC13audioSettingsSDySSypGvp",
+            "mangledName": "$s11VEExportSDK15ExportVideoInfoC13audioSettingsSDySSypGvp",
+            "moduleName": "VEExportSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11VEExportSDK15ExportVideoInfoC13audioSettingsSDySSypGvg",
+                "mangledName": "$s11VEExportSDK15ExportVideoInfoC13audioSettingsSDySSypGvg",
+                "moduleName": "VEExportSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(resolution:aspect:useHEVCCodecIfPossible:frameRate:scalingMode:)",
+            "printedName": "init(resolution:aspect:useHEVCCodecIfPossible:frameRate:scalingMode:audioSettings:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2215,11 +2485,31 @@
                 "printedName": "Swift.String",
                 "hasDefaultArg": true,
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11VEExportSDK15ExportVideoInfoC10resolution6aspect22useHEVCCodecIfPossible9frameRate11scalingModeA2C10ResolutionO_15BanubaUtilities11AspectRatioOSgSbSiSStcfc",
-            "mangledName": "$s11VEExportSDK15ExportVideoInfoC10resolution6aspect22useHEVCCodecIfPossible9frameRate11scalingModeA2C10ResolutionO_15BanubaUtilities11AspectRatioOSgSbSiSStcfc",
+            "usr": "s:11VEExportSDK15ExportVideoInfoC10resolution6aspect22useHEVCCodecIfPossible9frameRate11scalingMode13audioSettingsA2C10ResolutionO_15BanubaUtilities11AspectRatioOSgSbSiSSSDySSypGtcfc",
+            "mangledName": "$s11VEExportSDK15ExportVideoInfoC10resolution6aspect22useHEVCCodecIfPossible9frameRate11scalingMode13audioSettingsA2C10ResolutionO_15BanubaUtilities11AspectRatioOSgSbSiSSSDySSypGtcfc",
             "moduleName": "VEExportSDK",
             "declAttributes": [
               "AccessControl",
@@ -2274,7 +2564,7 @@
           {
             "kind": "Function",
             "name": "assetExportSettings",
-            "printedName": "assetExportSettings(resolution:aspect:useHEVCCodecIfPossible:frameRate:scalingMode:)",
+            "printedName": "assetExportSettings(resolution:aspect:useHEVCCodecIfPossible:frameRate:scalingMode:audioSettings:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2322,11 +2612,30 @@
                 "printedName": "Swift.String",
                 "hasDefaultArg": true,
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11VEExportSDK22ExportVideoInfoFactoryV05assetC8Settings10resolution6aspect22useHEVCCodecIfPossible9frameRate11scalingModeAA0cdE0C15BanubaUtilities0D10ResolutionO_AL11AspectRatioOSgSbSiSStFZ",
-            "mangledName": "$s11VEExportSDK22ExportVideoInfoFactoryV05assetC8Settings10resolution6aspect22useHEVCCodecIfPossible9frameRate11scalingModeAA0cdE0C15BanubaUtilities0D10ResolutionO_AL11AspectRatioOSgSbSiSStFZ",
+            "usr": "s:11VEExportSDK22ExportVideoInfoFactoryV05assetC8Settings10resolution6aspect22useHEVCCodecIfPossible9frameRate11scalingMode05audioH0AA0cdE0C15BanubaUtilities0D10ResolutionO_AM11AspectRatioOSgSbSiSSSDySSypGtFZ",
+            "mangledName": "$s11VEExportSDK22ExportVideoInfoFactoryV05assetC8Settings10resolution6aspect22useHEVCCodecIfPossible9frameRate11scalingMode05audioH0AA0cdE0C15BanubaUtilities0D10ResolutionO_AM11AspectRatioOSgSbSiSSSDySSypGtFZ",
             "moduleName": "VEExportSDK",
             "static": true,
             "declAttributes": [
@@ -3020,7 +3329,7 @@
           {
             "kind": "Function",
             "name": "exportAudio",
-            "printedName": "exportAudio(to:completion:)",
+            "printedName": "exportAudio(to:audioSettings:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3032,6 +3341,26 @@
                 "name": "URL",
                 "printedName": "Foundation.URL",
                 "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
               },
               {
                 "kind": "TypeNominal",
@@ -3082,8 +3411,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11VEExportSDK0A0C11exportAudio2to10completiony10Foundation3URLV_ySb_s5Error_pSgtcSgtF",
-            "mangledName": "$s11VEExportSDK0A0C11exportAudio2to10completiony10Foundation3URLV_ySb_s5Error_pSgtcSgtF",
+            "usr": "s:11VEExportSDK0A0C11exportAudio2to13audioSettings10completiony10Foundation3URLV_SDySSypGySb_s5Error_pSgtcSgtF",
+            "mangledName": "$s11VEExportSDK0A0C11exportAudio2to13audioSettings10completiony10Foundation3URLV_SDySSypGySb_s5Error_pSgtcSgtF",
             "moduleName": "VEExportSDK",
             "declAttributes": [
               "AccessControl",
@@ -3247,28 +3576,28 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
       "kind": "Array",
-      "offset": 1294,
+      "offset": 1368,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
       "kind": "Array",
-      "offset": 1386,
+      "offset": 1460,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
       "kind": "Array",
-      "offset": 1491,
+      "offset": 1565,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
       "kind": "Array",
-      "offset": 1556,
+      "offset": 1630,
       "length": 2,
       "value": "[]"
     },
@@ -3296,49 +3625,49 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
       "kind": "BooleanLiteral",
-      "offset": 1462,
+      "offset": 1461,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
       "kind": "BooleanLiteral",
-      "offset": 1499,
+      "offset": 1498,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
       "kind": "BooleanLiteral",
-      "offset": 1550,
+      "offset": 1549,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
       "kind": "BooleanLiteral",
-      "offset": 1821,
+      "offset": 1820,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
       "kind": "StringLiteral",
-      "offset": 1944,
+      "offset": 1943,
       "length": 32,
       "value": "\"com.banuba.video-editor.export\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
       "kind": "StringLiteral",
-      "offset": 2052,
+      "offset": 2051,
       "length": 38,
       "value": "\"com.banuba.video-editor.export.audio\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
       "kind": "StringLiteral",
-      "offset": 2160,
+      "offset": 2159,
       "length": 37,
       "value": "\"com.banuba.video-editor.export-sync\""
     },
@@ -3352,182 +3681,182 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetAudioExportSession.swift",
       "kind": "StringLiteral",
-      "offset": 1125,
+      "offset": 1124,
       "length": 38,
       "value": "\"com.banuba.video-editor.export.audio\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2194,
+      "offset": 2582,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 5501,
+      "offset": 6046,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7695,
+      "offset": 8310,
       "length": 4,
       "value": "2160"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7709,
+      "offset": 8324,
       "length": 4,
       "value": "3840"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7771,
+      "offset": 8386,
       "length": 4,
       "value": "1440"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7785,
+      "offset": 8400,
       "length": 4,
       "value": "2560"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7850,
+      "offset": 8465,
       "length": 4,
       "value": "1080"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7864,
+      "offset": 8479,
       "length": 4,
       "value": "1920"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7924,
+      "offset": 8539,
       "length": 3,
       "value": "720"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7937,
+      "offset": 8552,
       "length": 4,
       "value": "1280"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 7997,
+      "offset": 8612,
       "length": 3,
       "value": "480"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 8010,
+      "offset": 8625,
       "length": 3,
       "value": "854"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 8069,
+      "offset": 8684,
       "length": 3,
       "value": "540"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 8082,
+      "offset": 8697,
       "length": 3,
       "value": "960"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 8141,
+      "offset": 8756,
       "length": 3,
       "value": "360"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 8154,
+      "offset": 8769,
       "length": 3,
       "value": "640"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 8216,
+      "offset": 8831,
       "length": 3,
       "value": "360"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 8229,
+      "offset": 8844,
       "length": 3,
       "value": "640"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 9179,
+      "offset": 9794,
       "length": 10,
       "value": "36000000"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 9229,
+      "offset": 9844,
       "length": 10,
       "value": "16000000"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 9282,
+      "offset": 9897,
       "length": 9,
       "value": "8000000"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 9329,
+      "offset": 9944,
       "length": 9,
       "value": "5000000"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 9376,
+      "offset": 9991,
       "length": 9,
       "value": "3000000"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 9423,
+      "offset": 10038,
       "length": 9,
       "value": "2500000"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 9470,
+      "offset": 10085,
       "length": 9,
       "value": "1000000"
     }
