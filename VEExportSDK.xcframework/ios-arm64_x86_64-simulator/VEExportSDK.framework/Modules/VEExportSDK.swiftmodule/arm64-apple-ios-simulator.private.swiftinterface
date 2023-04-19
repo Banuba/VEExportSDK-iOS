@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VEExportSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -14,10 +14,10 @@ import _Concurrency
 import _StringProcessing
 public protocol ImageSlideshow {
   @discardableResult
-  func exportSlideshowImages(_ images: [VideoEditor.VideoEditorImageAssetProtocol], to fileUrl: Foundation.URL?, videoResolution: BanubaUtilities.VideoResolution, completion: ((Swift.Bool, Foundation.URL, Swift.Error?) -> Swift.Void)?) -> VEExportSDK.CancelExportHandler
+  func exportSlideshowImages(_ images: [VideoEditor.VideoEditorImageAssetProtocol], to fileUrl: Foundation.URL?, videoResolution: BanubaUtilities.VideoResolution, completion: ((Foundation.URL, Swift.Error?) -> Swift.Void)?) -> VEExportSDK.CancelExportHandler
 }
 extension VEExportSDK.ImageSlideshow {
-  public func exportSlideshowImages(_ images: [VideoEditor.VideoEditorImageAssetProtocol], to fileUrl: Foundation.URL? = nil, videoResolution: BanubaUtilities.VideoResolution, completion: ((Swift.Bool, Foundation.URL, Swift.Error?) -> Swift.Void)?) -> VEExportSDK.CancelExportHandler
+  public func exportSlideshowImages(_ images: [VideoEditor.VideoEditorImageAssetProtocol], to fileUrl: Foundation.URL? = nil, videoResolution: BanubaUtilities.VideoResolution, completion: ((Foundation.URL, Swift.Error?) -> Swift.Void)?) -> VEExportSDK.CancelExportHandler
 }
 public struct VESettings {
   public static var audio: [Swift.String : Any] {
@@ -47,8 +47,8 @@ public struct ExportVideoConfiguration {
   public init(fileURL: Foundation.URL, quality: VEExportSDK.ExportQuality, useHEVCCodecIfPossible: Swift.Bool, audioSettings: [Swift.String : Any] = VESettings.audio, watermarkConfiguration: VideoEditor.WatermarkConfiguration?)
 }
 public protocol VEExportServicing : VEExportSDK.ImageSlideshow {
-  func exportVideo(to fileURL: Foundation.URL, using exportVideoInfo: VEExportSDK.ExportVideoInfo, watermarkFilterModel: VideoEditor.VideoEditorFilterModel?, exportProgress: ((Foundation.TimeInterval) -> Swift.Void)?, completion: ((_ isSuccess: Swift.Bool, _ error: Swift.Error?) -> Swift.Void)?) -> VEExportSDK.CancelExportHandler?
-  func exportAudio(to fileURL: Foundation.URL, audioSettings: [Swift.String : Any], completion: ((_ isSuccess: Swift.Bool, _ error: Swift.Error?) -> Swift.Void)?)
+  func exportVideo(to fileURL: Foundation.URL, using exportVideoInfo: VEExportSDK.ExportVideoInfo, watermarkFilterModel: VideoEditor.VideoEditorFilterModel?, exportProgress: ((Swift.Float) -> Swift.Void)?, completion: ((_ error: Swift.Error?) -> Swift.Void)?) -> VEExportSDK.CancelExportHandler?
+  func exportAudio(to fileURL: Foundation.URL, audioSettings: [Swift.String : Any], completion: ((_ error: Swift.Error?) -> Swift.Void)?)
 }
 public let exportCancelledError: Foundation.NSError
 public typealias Bitrate = Swift.Int
@@ -102,10 +102,10 @@ public struct ExportVideoInfoFactory {
 public class VEExport {
   public init?(videoEditorService: VideoEditor.VideoEditorService)
   @discardableResult
-  public func exportVideo(to fileURL: Foundation.URL, using exportVideoInfo: VEExportSDK.ExportVideoInfo, watermarkFilterModel: VideoEditor.VideoEditorFilterModel?, exportProgress: ((Foundation.TimeInterval) -> Swift.Void)?, completion: ((_ isSuccess: Swift.Bool, _ error: Swift.Error?) -> Swift.Void)?) -> VEExportSDK.CancelExportHandler?
-  public func exportAudio(to fileURL: Foundation.URL, audioSettings: [Swift.String : Any] = VESettings.audio, completion: ((_ isSuccess: Swift.Bool, _ error: Swift.Error?) -> Swift.Void)?)
+  public func exportVideo(to fileURL: Foundation.URL, using exportVideoInfo: VEExportSDK.ExportVideoInfo, watermarkFilterModel: VideoEditor.VideoEditorFilterModel?, exportProgress: ((Swift.Float) -> Swift.Void)?, completion: ((_ error: Swift.Error?) -> Swift.Void)?) -> VEExportSDK.CancelExportHandler?
+  public func exportAudio(to fileURL: Foundation.URL, audioSettings: [Swift.String : Any] = VESettings.audio, completion: ((_ error: Swift.Error?) -> Swift.Void)?)
   @discardableResult
-  public func exportSlideshowImages(_ images: [VideoEditor.VideoEditorImageAssetProtocol], to fileUrl: Foundation.URL? = nil, videoResolution: BanubaUtilities.VideoResolution, completion: ((Swift.Bool, Foundation.URL, Swift.Error?) -> Swift.Void)?) -> VEExportSDK.CancelExportHandler
+  public func exportSlideshowImages(_ images: [VideoEditor.VideoEditorImageAssetProtocol], to fileUrl: Foundation.URL? = nil, videoResolution: BanubaUtilities.VideoResolution, completion: ((Foundation.URL, Swift.Error?) -> Swift.Void)?) -> VEExportSDK.CancelExportHandler
   @objc deinit
 }
 extension VEExportSDK.ExportVideoInfo.Resolution : Swift.Equatable {}
