@@ -48,7 +48,7 @@ public struct ExportVideoConfiguration {
 }
 public protocol VEExportServicing : VEExportSDK.ImageSlideshow {
   func exportVideo(to fileURL: Foundation.URL, using exportVideoInfo: VEExportSDK.ExportVideoInfo, watermarkFilterModel: VideoEditor.VideoEditorFilterModel?, exportProgress: ((Swift.Float) -> Swift.Void)?, completion: ((_ error: Swift.Error?) -> Swift.Void)?) -> VEExportSDK.CancelExportHandler?
-  func exportAudio(to fileURL: Foundation.URL, audioSettings: [Swift.String : Any], completion: ((_ error: Swift.Error?) -> Swift.Void)?)
+  func exportAudio(to fileURL: Foundation.URL, asset: AVFoundation.AVAsset?, audioSettings: [Swift.String : Any], completion: ((_ error: Swift.Error?) -> Swift.Void)?) -> VEExportSDK.CancelExportHandler?
 }
 public let exportCancelledError: Foundation.NSError
 public typealias Bitrate = Swift.Int
@@ -103,9 +103,12 @@ public class VEExport {
   public init?(videoEditorService: VideoEditor.VideoEditorService)
   @discardableResult
   public func exportVideo(to fileURL: Foundation.URL, using exportVideoInfo: VEExportSDK.ExportVideoInfo, watermarkFilterModel: VideoEditor.VideoEditorFilterModel?, exportProgress: ((Swift.Float) -> Swift.Void)?, completion: ((_ error: Swift.Error?) -> Swift.Void)?) -> VEExportSDK.CancelExportHandler?
-  public func exportAudio(to fileURL: Foundation.URL, audioSettings: [Swift.String : Any] = VESettings.audio, completion: ((_ error: Swift.Error?) -> Swift.Void)?)
+  @discardableResult
+  public func exportAudio(to fileURL: Foundation.URL, audioSettings: [Swift.String : Any] = VESettings.audio, completion: ((_ error: Swift.Error?) -> Swift.Void)?) -> VEExportSDK.CancelExportHandler?
   @discardableResult
   public func exportSlideshowImages(_ images: [VideoEditor.VideoEditorImageAssetProtocol], to fileUrl: Foundation.URL? = nil, videoResolution: BanubaUtilities.VideoResolution, completion: ((Foundation.URL, Swift.Error?) -> Swift.Void)?) -> VEExportSDK.CancelExportHandler
+  @discardableResult
+  public func exportAudio(to fileURL: Foundation.URL, from asset: AVFoundation.AVAsset, audioSettings: [Swift.String : Any] = VESettings.audio, completion: ((_ error: Swift.Error?) -> Swift.Void)?) -> VEExportSDK.CancelExportHandler?
   @objc deinit
 }
 extension VEExportSDK.ExportVideoInfo.Resolution : Swift.Equatable {}
