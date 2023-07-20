@@ -3685,14 +3685,14 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
       "kind": "StringLiteral",
-      "offset": 5586,
+      "offset": 5621,
       "length": 13,
       "value": "\"ExportVideo\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5655,
+      "offset": 5690,
       "length": 1,
       "value": "1"
     },
