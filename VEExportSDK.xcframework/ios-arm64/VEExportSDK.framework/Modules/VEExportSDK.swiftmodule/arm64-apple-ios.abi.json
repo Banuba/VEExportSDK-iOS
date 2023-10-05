@@ -595,9 +595,267 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "width",
+            "printedName": "width",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11VEExportSDK11GifSettingsV5width14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s11VEExportSDK11GifSettingsV5width12CoreGraphics7CGFloatVvp",
+            "moduleName": "VEExportSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11VEExportSDK11GifSettingsV5width14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s11VEExportSDK11GifSettingsV5width12CoreGraphics7CGFloatVvg",
+                "moduleName": "VEExportSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11VEExportSDK11GifSettingsV5width14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s11VEExportSDK11GifSettingsV5width12CoreGraphics7CGFloatVvs",
+                "moduleName": "VEExportSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11VEExportSDK11GifSettingsV5width14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s11VEExportSDK11GifSettingsV5width12CoreGraphics7CGFloatVvM",
+                "moduleName": "VEExportSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fps",
+            "printedName": "fps",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11VEExportSDK11GifSettingsV3fpsSdvp",
+            "mangledName": "$s11VEExportSDK11GifSettingsV3fpsSdvp",
+            "moduleName": "VEExportSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11VEExportSDK11GifSettingsV3fpsSdvg",
+                "mangledName": "$s11VEExportSDK11GifSettingsV3fpsSdvg",
+                "moduleName": "VEExportSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11VEExportSDK11GifSettingsV3fpsSdvs",
+                "mangledName": "$s11VEExportSDK11GifSettingsV3fpsSdvs",
+                "moduleName": "VEExportSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11VEExportSDK11GifSettingsV3fpsSdvM",
+                "mangledName": "$s11VEExportSDK11GifSettingsV3fpsSdvM",
+                "moduleName": "VEExportSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isReversed",
+            "printedName": "isReversed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11VEExportSDK11GifSettingsV10isReversedSbvp",
+            "mangledName": "$s11VEExportSDK11GifSettingsV10isReversedSbvp",
+            "moduleName": "VEExportSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11VEExportSDK11GifSettingsV10isReversedSbvg",
+                "mangledName": "$s11VEExportSDK11GifSettingsV10isReversedSbvg",
+                "moduleName": "VEExportSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11VEExportSDK11GifSettingsV10isReversedSbvs",
+                "mangledName": "$s11VEExportSDK11GifSettingsV10isReversedSbvs",
+                "moduleName": "VEExportSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11VEExportSDK11GifSettingsV10isReversedSbvM",
+                "mangledName": "$s11VEExportSDK11GifSettingsV10isReversedSbvM",
+                "moduleName": "VEExportSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(duration:)",
+            "printedName": "init(duration:width:fps:isReversed:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -610,11 +868,32 @@
                 "name": "Double",
                 "printedName": "Swift.Double",
                 "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11VEExportSDK11GifSettingsV8durationACSd_tcfc",
-            "mangledName": "$s11VEExportSDK11GifSettingsV8durationACSd_tcfc",
+            "usr": "s:11VEExportSDK11GifSettingsV8duration5width3fps10isReversedACSd_14CoreFoundation7CGFloatVSdSbtcfc",
+            "mangledName": "$s11VEExportSDK11GifSettingsV8duration5width3fps10isReversedACSd_12CoreGraphics7CGFloatVSdSbtcfc",
             "moduleName": "VEExportSDK",
             "declAttributes": [
               "AccessControl",
@@ -3695,6 +3974,27 @@
       "offset": 5916,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 956,
+      "length": 3,
+      "value": "240"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoConfiguration.swift",
+      "kind": "FloatLiteral",
+      "offset": 985,
+      "length": 4,
+      "value": "15.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1014,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",

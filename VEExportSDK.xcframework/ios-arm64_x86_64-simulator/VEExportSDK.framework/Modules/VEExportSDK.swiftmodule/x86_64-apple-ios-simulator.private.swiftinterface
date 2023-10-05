@@ -30,7 +30,10 @@ public enum ExportQuality {
 }
 public struct GifSettings {
   public var duration: Foundation.TimeInterval
-  public init(duration: Foundation.TimeInterval)
+  public var width: CoreFoundation.CGFloat
+  public var fps: Foundation.TimeInterval
+  public var isReversed: Swift.Bool
+  public init(duration: Foundation.TimeInterval, width: CoreFoundation.CGFloat = 240, fps: Foundation.TimeInterval = 15.0, isReversed: Swift.Bool = true)
 }
 public struct ExportConfiguration {
   public let videoConfigurations: [VEExportSDK.ExportVideoConfiguration]
