@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/user/Library/Developer/Xcode/DerivedData/VideoEditorSDKSandbox-dvbqgkbyffpndzghkkiwcffgdpts/Build/Intermediates.noindex/ArchiveIntermediates/VEExportSDK/InstallationBuildProductsLocation/Library/Frameworks/VEExportSDK.framework/VEExportSDK'
+binary-path:     '/Users/user/Library/Developer/Xcode/DerivedData/VideoEditorSDKSandbox-apczolamkvzvcugwxnswrghnwlmi/Build/Intermediates.noindex/ArchiveIntermediates/VEExportSDK/InstallationBuildProductsLocation/Library/Frameworks/VEExportSDK.framework/VEExportSDK'
 relocations:
   - { offsetInCU: 0x34, offset: 0x7187F, size: 0x8, addend: 0x0, symName: _VEExportSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x140F0, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x718B4, size: 0x8, addend: 0x0, symName: _VEExportSDKVersionNumber, symObjAddr: 0x38, symBinAddr: 0x14128, symSize: 0x0 }
@@ -216,7 +216,7 @@ relocations:
   - { offsetInCU: 0x1678, offset: 0x78CA1, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstract, symObjAddr: 0x4000, symBinAddr: 0xDEE0, symSize: 0x44 }
   - { offsetInCU: 0x168C, offset: 0x78CB5, size: 0x8, addend: 0x0, symName: '_$s11VEExportSDK29VideoEditorAssetExportSessionC6finish33_A7B5D3D904303DAE8F97D6356DBC4B32LLyyFyycfU_TA', symObjAddr: 0x40D8, symBinAddr: 0xDFB8, symSize: 0x8 }
   - { offsetInCU: 0x16A0, offset: 0x78CC9, size: 0x8, addend: 0x0, symName: '_$s11VEExportSDK29VideoEditorAssetExportSessionC05startF033_A7B5D3D904303DAE8F97D6356DBC4B32LLyyFyyScMYccfU_ySo7NSTimerCYbcfU_TA', symObjAddr: 0x4184, symBinAddr: 0xE064, symSize: 0xC }
-  - { offsetInCU: 0x4F, offset: 0x793BB, size: 0x8, addend: 0x0, symName: '_$s11VEExportSDK34VideoEditorAssetAudioExportSessionC8DefaultsV05emptyF11TracksErrorSo7NSErrorCvpZ', symObjAddr: 0xA290, symBinAddr: 0x1F2A8, symSize: 0x0 }
+  - { offsetInCU: 0x4F, offset: 0x793BB, size: 0x8, addend: 0x0, symName: '_$s11VEExportSDK34VideoEditorAssetAudioExportSessionC8DefaultsV05emptyF11TracksErrorSo7NSErrorCvpZ', symObjAddr: 0xA288, symBinAddr: 0x1F2A8, symSize: 0x0 }
   - { offsetInCU: 0xAB, offset: 0x79417, size: 0x8, addend: 0x0, symName: '_$s11VEExportSDK34VideoEditorAssetAudioExportSessionC8DefaultsV05emptyF11TracksError_WZ', symObjAddr: 0x178, symBinAddr: 0xE31C, symSize: 0x170 }
   - { offsetInCU: 0x188, offset: 0x794F4, size: 0x8, addend: 0x0, symName: '_$s11VEExportSDK34VideoEditorAssetAudioExportSessionC5errors5Error_pSgvg', symObjAddr: 0x2E8, symBinAddr: 0xE48C, symSize: 0x94 }
   - { offsetInCU: 0x1B7, offset: 0x79523, size: 0x8, addend: 0x0, symName: '_$s11VEExportSDK34VideoEditorAssetAudioExportSessionC5asset9timeRange13audioSettingsACSo7AVAssetC_So06CMTimeK0aSgSDySSypGtcfc', symObjAddr: 0x37C, symBinAddr: 0xE520, symSize: 0x310 }
