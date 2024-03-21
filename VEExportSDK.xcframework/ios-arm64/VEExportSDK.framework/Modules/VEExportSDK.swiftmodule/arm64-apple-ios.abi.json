@@ -1134,6 +1134,35 @@
             ]
           },
           {
+            "kind": "Function",
+            "name": "defaultConfiguration",
+            "printedName": "defaultConfiguration(fileURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExportConfiguration",
+                "printedName": "VEExportSDK.ExportConfiguration",
+                "usr": "s:11VEExportSDK19ExportConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11VEExportSDK19ExportConfigurationV07defaultD07fileURLAC10Foundation0G0V_tFZ",
+            "mangledName": "$s11VEExportSDK19ExportConfigurationV07defaultD07fileURLAC10Foundation0G0V_tFZ",
+            "moduleName": "VEExportSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(videoConfigurations:isCoverEnabled:gifSettings:)",
@@ -4051,6 +4080,27 @@
       "offset": 1014,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1729,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1795,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoConfiguration.swift",
+      "kind": "FloatLiteral",
+      "offset": 1836,
+      "length": 3,
+      "value": "0.3"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
