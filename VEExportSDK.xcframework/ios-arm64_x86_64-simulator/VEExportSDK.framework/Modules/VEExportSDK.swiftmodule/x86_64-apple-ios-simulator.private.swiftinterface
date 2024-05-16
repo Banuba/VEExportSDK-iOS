@@ -80,6 +80,7 @@ public class ExportVideoInfo {
   final public let aspect: BanubaUtilities.AspectRatio?
   final public let exportSettings: VEExportSDK.ExportVideoSettings
   final public let audioSettings: [Swift.String : Any]?
+  final public let useHEVCCodecIfPossible: Swift.Bool
   public init(resolution: VEExportSDK.ExportVideoInfo.Resolution, aspect: BanubaUtilities.AspectRatio? = nil, useHEVCCodecIfPossible: Swift.Bool, frameRate: Swift.Int = 30, scalingMode: Swift.String = AVVideoScalingModeResize, audioSettings: [Swift.String : Any]? = VESettings.audio)
   public static func setupOriginalSize(size: CoreFoundation.CGSize)
   @objc deinit
