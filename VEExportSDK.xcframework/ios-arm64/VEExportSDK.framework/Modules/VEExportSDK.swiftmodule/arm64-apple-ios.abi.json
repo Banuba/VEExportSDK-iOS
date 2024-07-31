@@ -47,12 +47,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[VideoEditor.VideoEditorImageAssetProtocol]",
+                "printedName": "[any VideoEditor.VideoEditorImageAssetProtocol]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "VideoEditorImageAssetProtocol",
-                    "printedName": "VideoEditor.VideoEditorImageAssetProtocol",
+                    "printedName": "any VideoEditor.VideoEditorImageAssetProtocol",
                     "usr": "s:11VideoEditor0aB18ImageAssetProtocolP"
                   }
                 ],
@@ -81,12 +81,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Foundation.URL, Swift.Error?) -> ())?",
+                "printedName": "((Foundation.URL, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Foundation.URL, Swift.Error?) -> ()",
+                    "printedName": "(Foundation.URL, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -96,7 +96,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Foundation.URL, Swift.Error?)",
+                        "printedName": "(Foundation.URL, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -107,12 +107,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -154,12 +154,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[VideoEditor.VideoEditorImageAssetProtocol]",
+                "printedName": "[any VideoEditor.VideoEditorImageAssetProtocol]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "VideoEditorImageAssetProtocol",
-                    "printedName": "VideoEditor.VideoEditorImageAssetProtocol",
+                    "printedName": "any VideoEditor.VideoEditorImageAssetProtocol",
                     "usr": "s:11VideoEditor0aB18ImageAssetProtocolP"
                   }
                 ],
@@ -189,12 +189,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Foundation.URL, Swift.Error?) -> ())?",
+                "printedName": "((Foundation.URL, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Foundation.URL, Swift.Error?) -> ()",
+                    "printedName": "(Foundation.URL, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -204,7 +204,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Foundation.URL, Swift.Error?)",
+                        "printedName": "(Foundation.URL, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -215,12 +215,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -1711,12 +1711,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Error?) -> ())?",
+                "printedName": "(((any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error?) -> ()",
+                    "printedName": "((any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1726,12 +1726,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -1817,12 +1817,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Error?) -> ())?",
+                "printedName": "(((any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error?) -> ()",
+                    "printedName": "((any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1832,12 +1832,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -3668,12 +3668,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Error?) -> ())?",
+                "printedName": "(((any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error?) -> ()",
+                    "printedName": "((any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3683,12 +3683,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -3759,12 +3759,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Error?) -> ())?",
+                "printedName": "(((any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error?) -> ()",
+                    "printedName": "((any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3774,12 +3774,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -3816,12 +3816,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[VideoEditor.VideoEditorImageAssetProtocol]",
+                "printedName": "[any VideoEditor.VideoEditorImageAssetProtocol]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "VideoEditorImageAssetProtocol",
-                    "printedName": "VideoEditor.VideoEditorImageAssetProtocol",
+                    "printedName": "any VideoEditor.VideoEditorImageAssetProtocol",
                     "usr": "s:11VideoEditor0aB18ImageAssetProtocolP"
                   }
                 ],
@@ -3851,12 +3851,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Foundation.URL, Swift.Error?) -> ())?",
+                "printedName": "((Foundation.URL, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Foundation.URL, Swift.Error?) -> ()",
+                    "printedName": "(Foundation.URL, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3866,7 +3866,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Foundation.URL, Swift.Error?)",
+                        "printedName": "(Foundation.URL, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -3877,12 +3877,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -3961,12 +3961,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Error?) -> ())?",
+                "printedName": "(((any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error?) -> ()",
+                    "printedName": "((any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3976,12 +3976,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -4019,1005 +4019,382 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
       "kind": "StringLiteral",
       "offset": 266,
       "length": 24,
       "value": "\"com.banuba.videoeditor\""
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
       "kind": "IntegerLiteral",
       "offset": 302,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
       "kind": "StringLiteral",
       "offset": 348,
       "length": 50,
       "value": "\"Can't create export session for specific quality\""
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
       "kind": "StringLiteral",
       "offset": 434,
       "length": 15,
       "value": "\"slideshow.mov\""
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1017,
-      "length": 5,
-      "value": "48000"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1053,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
       "kind": "Array",
       "offset": 1368,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
       "kind": "Array",
       "offset": 1460,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
       "kind": "Array",
       "offset": 1565,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
       "kind": "Array",
       "offset": 1630,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4177,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
-      "kind": "StringLiteral",
-      "offset": 6501,
-      "length": 13,
-      "value": "\"ExportVideo\""
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Services\/VEExportService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6570,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoConfiguration.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 956,
       "length": 3,
       "value": "240"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoConfiguration.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 985,
       "length": 4,
       "value": "15.0"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoConfiguration.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 1014,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoConfiguration.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1729,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoConfiguration.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1795,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoConfiguration.swift",
-      "kind": "FloatLiteral",
-      "offset": 1836,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
       "kind": "StringLiteral",
       "offset": 256,
       "length": 29,
       "value": "\"com.banuba.export.cancelled\""
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
       "kind": "IntegerLiteral",
       "offset": 295,
       "length": 4,
       "value": "-999"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
       "kind": "StringLiteral",
       "offset": 346,
       "length": 89,
       "value": "\"Export cancelled. Might be occured with user actions or broken\/specific video imported.\""
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
       "kind": "BooleanLiteral",
       "offset": 1462,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
       "kind": "BooleanLiteral",
       "offset": 1499,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
       "kind": "BooleanLiteral",
       "offset": 1550,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
       "kind": "BooleanLiteral",
       "offset": 1807,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
       "kind": "StringLiteral",
       "offset": 1930,
       "length": 32,
       "value": "\"com.banuba.video-editor.export\""
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
       "kind": "StringLiteral",
       "offset": 2038,
       "length": 38,
       "value": "\"com.banuba.video-editor.export.audio\""
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
       "kind": "StringLiteral",
       "offset": 2146,
       "length": 37,
       "value": "\"com.banuba.video-editor.export-sync\""
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3013,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "StringLiteral",
-      "offset": 3274,
-      "length": 20,
-      "value": "\"Output URL not set\""
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3748,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3927,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5279,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5444,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5834,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "StringLiteral",
-      "offset": 6319,
-      "length": 39,
-      "value": "\"IOSurfaceOpenGLESTextureCompatibility\""
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6360,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "StringLiteral",
-      "offset": 6374,
-      "length": 35,
-      "value": "\"IOSurfaceOpenGLESFBOCompatibility\""
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6411,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6473,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6920,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7325,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8241,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "FloatLiteral",
-      "offset": 8658,
-      "length": 5,
-      "value": "180.0"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8715,
-      "length": 2,
-      "value": "90"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8743,
-      "length": 3,
-      "value": "-90"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "FloatLiteral",
-      "offset": 9327,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "FloatLiteral",
-      "offset": 9394,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10289,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10422,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10452,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10478,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10581,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10604,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "FloatLiteral",
-      "offset": 10949,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11143,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11203,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11280,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11316,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11448,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11475,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11734,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11925,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "FloatLiteral",
-      "offset": 12071,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12085,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12123,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12849,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12956,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13202,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13262,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13705,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13812,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14058,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14118,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetAudioExportSession.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetAudioExportSession.swift",
       "kind": "StringLiteral",
       "offset": 445,
       "length": 24,
       "value": "\"Audio tracks not found\""
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetAudioExportSession.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetAudioExportSession.swift",
       "kind": "BooleanLiteral",
       "offset": 603,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetAudioExportSession.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetAudioExportSession.swift",
       "kind": "StringLiteral",
       "offset": 1376,
       "length": 38,
       "value": "\"com.banuba.video-editor.export.audio\""
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetAudioExportSession.swift",
-      "kind": "StringLiteral",
-      "offset": 2588,
-      "length": 20,
-      "value": "\"Output URL not set\""
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetAudioExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3732,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetAudioExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4106,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetAudioExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4470,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetAudioExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4617,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetAudioExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4643,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetAudioExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4746,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetAudioExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4769,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetAudioExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4864,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetAudioExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4924,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetAudioExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5001,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Sessions\/VideoEditorAssetAudioExportSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5037,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 757,
-      "length": 4,
-      "value": "2160"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 771,
-      "length": 4,
-      "value": "3840"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 827,
-      "length": 4,
-      "value": "1440"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 841,
-      "length": 4,
-      "value": "2560"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 900,
-      "length": 4,
-      "value": "1080"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 914,
-      "length": 4,
-      "value": "1920"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 968,
-      "length": 3,
-      "value": "720"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 981,
-      "length": 4,
-      "value": "1280"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1035,
-      "length": 3,
-      "value": "480"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1048,
-      "length": 3,
-      "value": "854"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1101,
-      "length": 3,
-      "value": "540"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1114,
-      "length": 3,
-      "value": "960"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1167,
-      "length": 3,
-      "value": "360"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1180,
-      "length": 3,
-      "value": "640"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 2828,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4328,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "Dictionary",
-      "offset": 4980,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5462,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 6350,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 8615,
       "length": 4,
       "value": "2160"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 8629,
       "length": 4,
       "value": "3840"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 8691,
       "length": 4,
       "value": "1440"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 8705,
       "length": 4,
       "value": "2560"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 8770,
       "length": 4,
       "value": "1080"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 8784,
       "length": 4,
       "value": "1920"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 8844,
       "length": 3,
       "value": "720"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 8857,
       "length": 4,
       "value": "1280"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 8917,
       "length": 3,
       "value": "480"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 8930,
       "length": 3,
       "value": "854"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 8989,
       "length": 3,
       "value": "540"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 9002,
       "length": 3,
       "value": "960"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 9061,
       "length": 3,
       "value": "360"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 9074,
       "length": 3,
       "value": "640"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 9136,
       "length": 3,
       "value": "360"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 9149,
       "length": 3,
       "value": "640"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 10153,
       "length": 10,
       "value": "36000000"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 10203,
       "length": 10,
       "value": "16000000"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 10256,
       "length": 5,
       "value": "5800"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 10264,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 10306,
       "length": 5,
       "value": "3600"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 10314,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 10356,
       "length": 5,
       "value": "2400"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 10364,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 10406,
       "length": 5,
       "value": "2000"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 10414,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 10456,
       "length": 5,
       "value": "1200"
     },
     {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
+      "filePath": "\/Users\/andreysak\/Developer\/ve_sdk_ios_2023\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 10464,
       "length": 4,
       "value": "1024"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "FloatLiteral",
-      "offset": 12489,
-      "length": 3,
-      "value": "1.5"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12598,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "FloatLiteral",
-      "offset": 12638,
-      "length": 3,
-      "value": "1.5"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 13142,
-      "length": 60,
-      "value": "\"Export resolution is not configured for \""
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/Components\/ExportVideoInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 13190,
-      "length": 10,
-      "value": "\" resolution\""
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/VEExportSDK\/VEExportSDK\/VEExport.swift",
-      "kind": "StringLiteral",
-      "offset": 790,
-      "length": 54,
-      "value": "\"⚠️, Token doesn't contain support for Export API\""
     }
   ]
 }
