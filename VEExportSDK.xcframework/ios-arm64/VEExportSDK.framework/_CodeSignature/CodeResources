@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		z8NJTuQIYrnb5M+tF1+j9IlXq5Y=
+		F+YS5Rh44PmKttdVSi+7p6pVpAo=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		68A4eOIP5yk0nE8FV3IGFK59VTI=
+		WDQqKWTnoeEKE0sYwneTDeRhY0A=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		FqMX+tFqjWxeHgkEAauaYnFIEVs=
+		ZNYDpf6dXn+iQlHuRODbFWxbJ94=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		68A4eOIP5yk0nE8FV3IGFK59VTI=
+		WDQqKWTnoeEKE0sYwneTDeRhY0A=
 		</data>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		fr/XlhV4eqtxe/8YjeBeLCkZoR0=
+		JegtbcYjBbU+Hi45KtiOQd3cZDM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,28 +72,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5qAxlu5kJ7HokZ8ODYhvFhph5ip5lnPhMcPCoRnoUhU=
+			yR8LbQz3ET10um9RodWW+G4bXC9B6dv0QBZHwAwu5Ts=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QTBP9BikS1nJcOXMZq2/ch5AME0N3NWiwl+noL1/UHU=
+			Vt9YsWAlOHI/kjigk7bC4g3kJYU2XNsi9jyNm5A2vVI=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5qAxlu5kJ7HokZ8ODYhvFhph5ip5lnPhMcPCoRnoUhU=
+			yR8LbQz3ET10um9RodWW+G4bXC9B6dv0QBZHwAwu5Ts=
 			</data>
 		</dict>
 		<key>Modules/VEExportSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b83XCFkT0N6yKWsz6udlPbbCbDcgyAHYUK/MQPmb7u0=
+			7BcMzcBrRzcJLjWX3zcpXX46Q6wl1hzwIiFJtyyi3OQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
